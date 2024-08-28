@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filippos Kranakis</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #ffffff;
+        }
+        .cover {
+            min-height: 100vh;
+            background: linear-gradient(325deg, rgb(188,36,60) 0%, rgb(0,70,128) 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 3%;
+            box-sizing: border-box;
+        }
+        .content {
+            max-width: 850px;
+            width: 100%;
+        }
+        .site-title {
+            font-size: clamp(4rem, 12vw, 8rem);
+            font-weight: 900;
+            line-height: 0.9;
+            text-transform: capitalize;
+            margin: 10% 0;
+        }
+        .links {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-flow: row dense;
+            gap: 3%;
+            }
+        .links a {
+            display: block;
+            padding: 4%;
+            text-align: center;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.1);
+            }
+        a {
+            color: #ffffff;
+            text-decoration: none;
+            transition: opacity 0.3s;
+            display: inline-block;
+            margin-bottom: 4%;
+        }
+        a:hover {
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+    <main class="cover">
+        <div class="content">
+            <h1 class="site-title">Filippos</br>Kranakis</h1>
+            <div class="links">
+                <a href="#"><b>ABOUT</b></a>
+                <a href="https://www.facebook.com/FilipposKranakis"><b>FACEBOOK</b></a>
+                <a href="https://www.x.com/FKranakis"><b>TWITTER</b></a>
+                <a href="https://www.linkedin.com/in/filipposkranakis/"><b>LINKEDIN</b></a>
+                <a href="https://www.instagram.com/filipposkranakis/"><b>INSTAGRAM</b></a>
+                <a href="https://www.github.com/FilipposKranakis"><b>GITHUB</b></a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
